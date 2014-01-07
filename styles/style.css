@@ -1,0 +1,43 @@
+.slider {
+    margin-top: 1em;
+    /*float: right;*/
+}
+
+#bigswatch {
+    position: relative;
+}
+
+#swatch {
+    position: absolute;
+    top: 70px;
+    left: 100px;
+    width: 100px;
+    height: 100px;
+    background-color: #FF0000;
+}
+
+/*Slider colours*/
+
+#red-slider .ui-slider-range {
+    background: #FF0000;
+}
+
+#red-slider .ui-slider-handle {
+    border-color: #FF0000;
+}
+
+#green-slider .ui-slider-range {
+    background: #00FF00;
+}
+
+#green-slider .ui-slider-handle {
+    border-color: #00FF00;
+}
+
+#blue-slider .ui-slider-range {
+    background: #0000FF;
+}
+
+#blue-slider .ui-slider-handle {
+    border-color: #0000FF;
+}
